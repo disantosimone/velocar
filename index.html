@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velocar | Officina meccanica e pneumatici a Milano</title>
+  <meta name="description" content="Officina meccanica e autoriparazioni a Milano: riparazioni generali, tagliandi, gestione e rigenerazione pneumatici. Prenota su WhatsApp o online.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>html { scroll-behavior: smooth; }</style>
+</head>
+<body class="bg-stone-950 text-stone-100 font-sans antialiased">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 inset-x-0 z-50 bg-stone-950/90 backdrop-blur border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
+      <a href="#top" class="font-extrabold tracking-wide text-lg">VELOCAR</a>
+      <nav class="hidden md:flex items-center gap-7 text-sm text-stone-300">
+        <a href="#chi-siamo" class="hover:text-white">Chi siamo</a>
+        <a href="#servizi" class="hover:text-white">Servizi</a>
+        <a href="#orari" class="hover:text-white">Orari</a>
+        <a href="#prenota" class="hover:text-white">Contatti</a>
+      </nav>
+      <a href="#prenota" class="bg-red-600 hover:bg-red-500 text-white text-sm font-semibold px-4 py-2 rounded-md">Prenota</a>
+    </div>
+  </header>
+
+  <!-- 1. HERO -->
+  <section id="top" class="relative min-h-screen flex items-center pt-16">
+    <div class="absolute inset-0 bg-gradient-to-br from-stone-900 via-stone-950 to-stone-900"></div>
+    <img src="images/velocar-hero.webp" alt="Auto sui ponti sollevatori nell'officina Velocar" class="absolute inset-0 w-full h-full object-cover opacity-30">
+    <div class="relative max-w-6xl mx-auto px-5 py-24">
+      <p class="inline-block text-xs font-semibold uppercase tracking-widest text-red-400 border border-red-400/40 rounded-full px-3 py-1 mb-6">
+        Officina meccanica · Milano
+      </p>
+      <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight max-w-3xl">
+        La tua auto in mani competenti, con spiegazioni chiare.
+      </h1>
+      <p class="mt-6 text-lg text-stone-300 max-w-2xl">
+        Autoriparazioni generali, officina meccanica e gestione dei pneumatici in via Privata Stella, a Milano.
+        Ti diciamo cosa succede alla tua auto prima di mettere mano a qualsiasi lavoro.
+      </p>
+      <div class="mt-10 flex flex-col sm:flex-row gap-4">
+        <a href="#prenota" class="bg-red-600 hover:bg-red-500 text-white font-semibold px-6 py-3.5 rounded-md text-center">
+          Richiedi un appuntamento
+        </a>
+        <a href="tel:+393331742871" class="border border-white/20 hover:border-white/50 text-white font-semibold px-6 py-3.5 rounded-md text-center">
+          Chiama 333 174 2871
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. CHI SIAMO -->
+  <section id="chi-siamo" class="py-24 bg-stone-900">
+    <div class="max-w-6xl mx-auto px-5 grid lg:grid-cols-2 gap-14 items-center">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-widest text-red-400 mb-3">Chi siamo</p>
+        <h2 class="text-3xl sm:text-4xl font-bold leading-tight">Un'officina di quartiere che lavora con metodo.</h2>
+        <p class="mt-6 text-stone-300 leading-relaxed">
+          Velocar si occupa di autoriparazioni generali e di officina meccanica. Chi ci lascia l'auto riceve un
+          riscontro chiaro su cosa è stato trovato, cosa va riparato subito e cosa può aspettare.
+        </p>
+        <p class="mt-4 text-stone-400 text-sm leading-relaxed">
+          Nelle recensioni dei clienti si parla spesso di onestà e di disponibilità nel mostrare i dettagli del guasto.
+        </p>
+      </div>
+      <!-- SEGNAPOSTO FOTO: ritratto del meccanico o interno officina -->
+      <figure>
+        <img src="images/velocar-chi-siamo.webp" alt="Interno dell'officina Velocar a Milano" class="w-full aspect-[4/5] object-cover rounded-xl">
+      </figure>
+    </div>
+  </section>
+
+  <!-- 3. SERVIZI -->
+  <section id="servizi" class="py-24">
+    <div class="max-w-6xl mx-auto px-5">
+      <div class="max-w-2xl">
+        <p class="text-sm font-semibold uppercase tracking-widest text-red-400 mb-3">Servizi</p>
+        <h2 class="text-3xl sm:text-4xl font-bold leading-tight">Tutto quello che serve alla tua auto, in un unico posto.</h2>
+      </div>
+
+      <div class="mt-14 grid md:grid-cols-3 gap-8">
+        <article class="bg-stone-900 rounded-xl overflow-hidden border border-white/5">
+          <img src="images/velocar-autoriparazioni.webp" alt="Officina Velocar con ponti sollevatori" class="w-full h-52 object-cover">
+          <div class="p-7">
+            <h3 class="text-xl font-bold">Autoriparazioni generali</h3>
+            <ul class="mt-4 space-y-2 text-stone-300 text-sm list-disc list-inside marker:text-red-500">
+              <li>Riparazioni meccaniche su motore e componenti</li>
+              <li>Diagnosi del problema prima dell'intervento</li>
+              <li>Preventivo chiaro prima di iniziare</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="bg-stone-900 rounded-xl overflow-hidden border border-white/5">
+          <img src="images/velocar-tagliandi.webp" alt="Oli e attrezzatura per tagliandi" class="w-full h-52 object-cover">
+          <div class="p-7">
+            <h3 class="text-xl font-bold">Officina meccanica e tagliandi</h3>
+            <ul class="mt-4 space-y-2 text-stone-300 text-sm list-disc list-inside marker:text-red-500">
+              <li>Tagliandi e manutenzione programmata</li>
+              <li>Controlli periodici per prevenire guasti</li>
+              <li>Interventi su freni, sospensioni e impianto di raffreddamento</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="bg-stone-900 rounded-xl overflow-hidden border border-white/5">
+          <img src="images/velocar-pneumatici.webp" alt="Deposito pneumatici e attrezzatura Velocar" class="w-full h-52 object-cover">
+          <div class="p-7">
+            <h3 class="text-xl font-bold">Gestione e rigenerazione pneumatici</h3>
+            <ul class="mt-4 space-y-2 text-stone-300 text-sm list-disc list-inside marker:text-red-500">
+              <li>Cambio stagionale e controllo pressione</li>
+              <li>Gestione e rigenerazione degli pneumatici</li>
+              <li>Montaggio e bilanciatura</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. ORARI E CONTATTI -->
+  <section id="orari" class="py-24 bg-stone-900">
+    <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-12">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-widest text-red-400 mb-3">Orari</p>
+        <h2 class="text-3xl font-bold leading-tight mb-8">Quando siamo aperti</h2>
+        <ul class="space-y-3 text-stone-300">
+          <li class="flex justify-between border-b border-white/10 pb-3"><span>Lunedì – Venerdì</span><span>08:30 – 12:00 · 14:00 – 18:45</span></li>
+          <li class="flex justify-between border-b border-white/10 pb-3"><span>Sabato</span><span>09:00 – 12:00</span></li>
+          <li class="flex justify-between border-b border-white/10 pb-3"><span>Domenica</span><span>Chiuso</span></li>
+        </ul>
+        <p class="mt-4 text-xs text-stone-500">Orari da verificare con l'officina prima della pubblicazione.</p>
+      </div>
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-widest text-red-400 mb-3">Dove siamo</p>
+        <h2 class="text-3xl font-bold leading-tight mb-8">Via Privata Antonio Fortunato Stella, 3/5</h2>
+        <p class="text-stone-300">20125 Milano (MI)</p>
+        <p class="mt-4 text-stone-300">Ingresso accessibile in sedia a rotelle.</p>
+        <p class="mt-4 text-stone-300">Pagamenti: carte di credito, carte di debito e contactless.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. PRENOTA -->
+  <section id="prenota" class="py-24">
+    <div class="max-w-3xl mx-auto px-5">
+      <p class="text-sm font-semibold uppercase tracking-widest text-red-400 mb-3">Prenota</p>
+      <h2 class="text-3xl sm:text-4xl font-bold leading-tight">Richiedi un appuntamento su WhatsApp.</h2>
+      <p class="mt-4 text-stone-300">Compila il modulo e si apre WhatsApp con il messaggio già pronto. Lo invii dal tuo telefono.</p>
+
+      <form id="booking" class="mt-10 bg-stone-900 rounded-xl p-7 border border-white/10 space-y-5">
+        <div class="grid sm:grid-cols-2 gap-4">
+          <label class="block text-sm">
+            <span class="text-stone-400">Nome e cognome *</span>
+            <input name="nome" required class="mt-1.5 w-full bg-stone-950 border border-white/10 rounded-md px-3 py-2.5 focus:outline-none focus:border-red-500">
+          </label>
+          <label class="block text-sm">
+            <span class="text-stone-400">Telefono</span>
+            <input name="telefono" type="tel" class="mt-1.5 w-full bg-stone-950 border border-white/10 rounded-md px-3 py-2.5 focus:outline-none focus:border-red-500">
+          </label>
+          <label class="block text-sm">
+            <span class="text-stone-400">Targa</span>
+            <input name="targa" class="mt-1.5 w-full bg-stone-950 border border-white/10 rounded-md px-3 py-2.5 uppercase focus:outline-none focus:border-red-500">
+          </label>
+          <label class="block text-sm">
+            <span class="text-stone-400">Modello auto</span>
+            <input name="modello" class="mt-1.5 w-full bg-stone-950 border border-white/10 rounded-md px-3 py-2.5 focus:outline-none focus:border-red-500">
+          </label>
+        </div>
+
+        <label class="block text-sm">
+          <span class="text-stone-400">Servizio richiesto *</span>
+          <select name="servizio" required class="mt-1.5 w-full bg-stone-950 border border-white/10 rounded-md px-3 py-2.5 focus:outline-none focus:border-red-500">
+            <option value="">Seleziona</option>
+            <option>Riparazione meccanica</option>
+            <option>Tagliando</option>
+            <option>Pneumatici</option>
+            <option>Altro</option>
+          </select>
+        </label>
+
+        <label class="block text-sm">
+          <span class="text-stone-400">Descrivi il problema</span>
+          <textarea name="note" rows="3" class="mt-1.5 w-full bg-stone-950 border border-white/10 rounded-md px-3 py-2.5 focus:outline-none focus:border-red-500"></textarea>
+        </label>
+
+        <label class="block text-sm">
+          <span class="text-stone-400">Data preferita</span>
+          <input name="data" type="date" class="mt-1.5 w-full bg-stone-950 border border-white/10 rounded-md px-3 py-2.5 focus:outline-none focus:border-red-500">
+        </label>
+
+        <button type="submit" class="w-full bg-red-600 hover:bg-red-500 text-white font-semibold py-3.5 rounded-md">
+          Invia su WhatsApp
+        </button>
+        <p class="text-xs text-stone-500 text-center">
+          Preferisci prenotare online? <a href="https://www.sumupbookings.com/velocar" target="_blank" rel="noopener" class="underline hover:text-white">Usa la pagina di prenotazione</a>
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-10 border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between gap-4 text-sm text-stone-500">
+      <span class="font-semibold text-stone-300">VELOCAR</span>
+      <span>Via Privata Antonio Fortunato Stella, 3/5 · 20125 Milano · 333 174 2871</span>
+    </div>
+  </footer>
+
+  <!-- WhatsApp: numero dell'officina in formato internazionale senza + -->
+  <a href="https://wa.me/393331742871" target="_blank" rel="noopener"
+     class="fixed bottom-5 right-5 z-50 bg-green-600 hover:bg-green-500 text-white px-5 py-3 rounded-full shadow-lg font-semibold text-sm">
+    WhatsApp
+  </a>
+
+  <script>
+    const WA_NUMBER = "393331742871";
+
+    document.getElementById("booking").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const f = new FormData(this);
+      const riga = (etichetta, valore) => valore ? `${etichetta}: ${valore}\n` : "";
+
+      const messaggio =
+        "Buongiorno, vorrei richiedere un appuntamento.\n\n" +
+        riga("Nome", f.get("nome")) +
+        riga("Telefono", f.get("telefono")) +
+        riga("Targa", (f.get("targa") || "").toUpperCase()) +
+        riga("Veicolo", f.get("modello")) +
+        riga("Servizio", f.get("servizio")) +
+        riga("Problema", f.get("note")) +
+        riga("Data preferita", f.get("data"));
+
+      window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(messaggio)}`, "_blank");
+    });
+  </script>
+</body>
+</html>
